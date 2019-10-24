@@ -1,0 +1,15 @@
+{
+  "name": "cypress-350-unicode-visit",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "start-server-and-test serve http://localhost:9000 cy:run",
+    "cy:run": "cypress run --browser chrome"
+  },
+  "dependencies": {
+    "cypress": "^3.5.0",
+    "serve": "^11.2.0",
+    "start-server-and-test": "^1.10.6"
+  }
+}
